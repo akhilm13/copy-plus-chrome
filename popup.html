@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+		<link rel="stylesheet" href="style.css">
+		<title> Copy Plus </title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="logo">
+				<img src="assets/copy_plus_icon48.png"/ id="copy_plus_logo">
+			</div>
+			
+			<div class="toggle">
+				<h2> If this extension is messing with your workflow or is causing unexpected problems, you can click on the button below to disable it temporarily.</h2>
+				<button id='disable_buttn'> Disable/Enable This Extension </button>
+			</div>
+			
+			<div class="options">
+				<table class="optionsTable">
+					<h2> Seperate copied elements</h2>
+					<tr>
+						<td> <input type="radio" name="seperator" value="0" > With new line	</td>
+						<td> <input type="radio" name="seperator" value="1"> With a whitespace	</td>
+					</tr>
+				</table>
+				<td> <button id='ok_buttn'> OK </button></td>
+			</div>
+		</div>
+	</body>
+	<script src="popup.js"></script>
+</html>
